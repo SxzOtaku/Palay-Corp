@@ -1,6 +1,6 @@
 <?php
 
-    // SETUP PAKO
+    // SETUP PAKO (DEFAULT)
     $host = "localhost";
     $user = "root";
     $password = "";
