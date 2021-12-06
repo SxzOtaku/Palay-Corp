@@ -860,7 +860,7 @@ header h4 {
     height: auto;
 }
 
-.products-actions button {
+.products-actions #btnApply {
     padding: 5px 10px;
     margin-left: 10px;
     border: none;
@@ -869,10 +869,10 @@ header h4 {
     font-size: 12px;
     font-weight: 600;
     color: white;
-    background-color: rgb(136, 133, 133);
+    background-color: green;
     cursor: pointer;
 }
 
-.products-actions button:last-of-type {
+/* .products-actions button:last-of-type {
     background-color: green;
-}
+} */

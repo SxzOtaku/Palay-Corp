@@ -315,15 +315,17 @@
                         <label for="">Ingredients</label>
                         <input type="number" placeholder="Please input">
                     </div> -->
-
-                    <input type="submit" value="Add">
                 </div>
             </div>
+        </div>
+
+        <div class="products-actions">
+            <input type="submit" value="Apply" id="btnApply">
         </div>
     </form>
 
 
-    <div class="product-sales-info">
+    <!-- <div class="product-sales-info">
         <h3>Sales Information</h3>
         <div class="product-sales-info-content">
             <div class="sales-info-content-row">
@@ -406,13 +408,7 @@
                 <input type="text">
             </div>
         </div>
-    </div>
-
-    <div class="products-actions">
-        <button>Cancel</button>
-        <button>Save and Delist</button>
-        <button>Save and Publish</button>
-    </div>
+    </div> -->
 </div>
 
 <!------------------------------------Customers------------------------->
