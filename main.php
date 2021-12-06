@@ -33,7 +33,7 @@
                     var price = parsedData[i][3];
                     
                     // ADD ITEM FROM DATABASE
-                    $('#display-new').append("<div class='sack'><span></span><h5>" + name + "</h5><p>P" + price +"</p></div>");
+                    $('#display-new').append(`<div class='sack'><span></span><h5>${name}</h5><p>P${price}</p></div>`);
                 }    
             }
         });
