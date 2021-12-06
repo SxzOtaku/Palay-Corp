@@ -14,6 +14,31 @@
     <title>Home Page</title>
     <link rel="stylesheet" href="main.css">
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <!-- INIT DATA -->
+    <script>
+        $.ajax({
+            type: 'GET',
+            url: 'backend/get_product.php',
+            datatype: 'json',
+            contentType: 'application/json; charset=utf-8',
+            success: function(data)
+            {
+                var parsedData = jQuery.parseJSON(data); // RETURN TYPE OF MULTI DIMENSION ARRAY
+
+                for(var i = 0; i < parsedData.length; i++){
+                    var name = parsedData[i][1];
+                    var price = parsedData[i][3];
+                    
+                    // ADD ITEM FROM DATABASE
+                    $('#display-new').append("<div class='sack'><span></span><h5>" + name + "</h5><p>P" + price +"</p></div>");
+                }    
+            }
+        });
+    </script>
+
 </head>
 <body>
     <header>
@@ -51,7 +76,7 @@
                 </div>
                 <div class="nav-links">
                     <li><a href="main.php">Home</a></li>
-                    <li><a href="#">Items</a></li>
+                    <li><a href="items.php">Items</a></li>
                     <li><a href="#">Contact</a></li>
                     <li><a href="#">About Us</a></li>
                 </div>
@@ -125,15 +150,15 @@
             <div class="shopping-header">
                     <li><h4>NEW</h4></li>
             </div>
-            <div class="display">
-                <div class="sack">
+            <div class="display" id="display-new">
+                <!-- <div class="sack">
                     <span></span>
                     <div class="sack-details">
                     
-                    <button>Add to Cart</button>
-                </div>
-                </div>
-                <div class="sack">
+                        <button>Add to Cart</button>
+                    </div>
+                </div> -->
+                <!-- <div class="sack">
                     <span></span><h5>Description</h5><p>$500.00</p>
                 </div>
                 <div class="sack">
@@ -141,7 +166,7 @@
                 </div>
                 <div class="sack">
                     <span></span><h5>Description</h5><p>$500.00</p>
-                </div>
+                </div> -->
             </div>
         </div>
 
