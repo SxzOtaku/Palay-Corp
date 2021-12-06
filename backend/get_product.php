@@ -1,7 +1,7 @@
 <?php
     require 'connect.php';
 
-    // GET 5 LATEST DATA QUERY
+    // GET 4 LATEST DATA QUERY
     $getQuery = "SELECT * FROM Product ORDER BY id DESC LIMIT 4";
 
     $result = mysqli_query(
