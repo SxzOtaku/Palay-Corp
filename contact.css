@@ -1,0 +1,113 @@
+#contact-container{
+    width: 100%;
+    height: 87%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* #contact-content #get-in-touch{
+    margin-top: 5%;
+} */
+
+#contact-container #content{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#content #contact-info{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#content #contact-form{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+}
+
+#contact-info #logo-container{
+    height: 150px;
+    width: 300px;    
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logo-container #phone-logo{
+    height: 100px;
+    width: 100px;
+    background: #6aab50;
+    background-image: url("images/phone.png");
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+}
+
+#logo-container #telephone-logo{
+    height: 100px;
+    width: 100px;
+    background: #6aab50;
+    background-image: url("images/telephone.png");
+    background-size: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+}
+
+#contact-info #socmed-logo-container{
+    width: 50%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#contact-form #input-info{
+    background-color: #e3e3e3;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+#contact-form #input-info::placeholder{
+    color: black;
+}
+
+#contact-form #input-message{
+    background-color: #e3e3e3;
+    height: 200px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;    
+    padding-top: 10px;
+}
+
+#contact-form #input-message::placeholder{
+    color: black;
+}
+
+#contact-form #send{
+    background-color: green;
+    color: white;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+}

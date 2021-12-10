@@ -77,8 +77,8 @@
                 <div class="nav-links">
                     <li><a href="main.php">Home</a></li>
                     <li><a href="items.php">Items</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">About Us</a></li>
+                    <li><a href="contact.php">Contact</a></li>
+                    <li><a href="about.php">About Us</a></li>
                 </div>
             </div>
             <div class="cart">
@@ -132,18 +132,26 @@
                     <li><h4>FEATURES</h4></li>
             </div>
             <div class="display">
-                <div class="sack">
-                    <span></span><h5>Description</h5><p>$500.00</p>
-                </div>
-                <div class="sack">
-                    <span></span><h5>Description</h5><p>$500.00</p>
-                </div>
-                <div class="sack">
-                    <span></span><h5>Description</h5><p>$500.00</p>
-                </div>
-                <div class="sack">
-                    <span></span><h5>Description</h5><p>$500.00</p>
-                </div>
+                <a href="product.php">
+                    <div class="sack">
+                        <span></span><p>Description</p><p>$500.00</p>
+                    </div>
+                </a>
+                <a href="product.php">
+                    <div class="sack">
+                        <span></span><p>Description</p><p>$500.00</p>
+                    </div>
+                </a>
+                <a href="product.php">
+                    <div class="sack">
+                        <span></span><p>Description</p><p>$500.00</p>
+                    </div>
+                </a>
+                <a href="product.php">
+                    <div class="sack">
+                        <span></span><p>Description</p><p>$500.00</p>
+                    </div>
+                </a>
             </div>
         </div>
         <div class="shopping">

@@ -1,0 +1,103 @@
+#content{
+    width: 100%;
+    height: 87%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#content #logo-container{
+    height: 20%;
+    width: 50%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#content #palay-logo{
+    height: 60px;
+    width: 60px;
+    background-image: url("images/agri-icon.png");
+    background-size: 60px;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+
+#content #description{
+    height: auto;
+    width: 80%;
+    font-size: 18px;
+    line-height: 2;
+    margin-top: 50px;
+}
+
+#content #founding-members{
+    width: 80%;
+    height: auto;    
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#founding-members #item{
+    width: 100%;
+    height: 50%;    
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+#item #photo-alfrederick{
+    width: 110px;
+    height: 110px;
+    margin-right: 20px;
+    background-image: url("images/dinorado.png");
+    background-size: 110px;
+    background-repeat: no-repeat;
+}
+
+#item #photo-ericka{
+    width: 110px;
+    height: 110px;
+    margin-right: 20px;
+    background-image: url("images/dinorado.png");
+    background-size: 110px;
+    background-repeat: no-repeat;
+}
+
+#item #photo-neil{
+    width: 110px;
+    height: 110px;
+    margin-right: 20px;
+    background-image: url("images/dinorado.png");
+    background-size: 110px;
+    background-repeat: no-repeat;
+}
+
+#item #photo-lemuel{
+    width: 110px;
+    height: 110px;
+    margin-right: 20px;
+    background-image: url("images/dinorado.png");
+    background-size: 110px;
+    background-repeat: no-repeat;
+}
+
+#item #photo-thom{
+    width: 110px;
+    height: 110px;
+    margin-right: 20px;
+    background-image: url("images/dinorado.png");
+    background-size: 110px;
+    background-repeat: no-repeat;
+}
+
+#item #details{
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

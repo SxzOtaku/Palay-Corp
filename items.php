@@ -2,6 +2,7 @@
     <head>
         <link rel="stylesheet" href="main.css">
         <link rel="stylesheet" href="items.css">
+
     </head>
     <body>
         <div class="navigation">
@@ -17,12 +18,10 @@
                     </form>
                 </div>
                 <div class="nav-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Shop</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Items</a></li>
+                    <li><a href="main.php">Home</a></li>
+                    <li><a href="items.php">Items</a></li>
+                    <li><a href="contact.php">Contact</a></li>
+                    <li><a href="about.php">About Us</a></li>
                 </div>
             </div>
             <div class="cart">
@@ -95,7 +94,7 @@
                     </select>
                 </div>
                 <div id="content">
-                    <div id="item">
+                    <div id="item" class="content-item">
                         <div id="details">
                             <h5>Dinorado</h5>
                             <h5>P999.00</h5>
@@ -143,5 +142,11 @@
                 </div>
             </div>
         </div>
+        <script>
+            var item = document.getElementsByClassName('content-item');
+            item[0].addEventListener('click', ()=>{
+                window.location.href = "product.php";
+            });
+        </script>
     </body>
 </html>

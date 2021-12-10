@@ -259,3 +259,11 @@ table td .purchase img {
     position: relative
 
 }
+
+#removeBtn{
+    color: black;
+}
+
+#removeBtn:hover{
+    color: green;
+}

@@ -7,7 +7,26 @@
     <title>Cart Page</title>
     <link rel="stylesheet" href="cart.css">
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+    <script>
+        function removeItem(){
+            document.getElementById('cart-item-1').remove();
+        }
+    </script>
+
 </head>
+
+<script>
+    function subtractQuantity(){
+        var quantity = document.getElementById('quantity-maharlika');
+        var value = parseInt(quantity.value);
+
+        if(!value < 1){
+            quantity.value = value - 1;
+        }}
+    
+</script>
+
 <body>
     <header>
         <div class="top-nav">
@@ -56,7 +75,7 @@
                     <th>Total Price</th>
                     <th>Actions</th>
                 </tr>
-                <tr>
+                <tr id="cart-item-1">
                     <td>
                         <div class="purchase">
                             <img src="images/maharlika.png" alt="">
@@ -65,16 +84,17 @@
                     </td>
                     <td>P1,200.00</td>
                     <td>
-                        <button id="subBtn">-</button>
-                        <input type="text" id="quantity" value="1">
-                        <button id="addBtn">+</button>
+                        <button id="subBtn-maharlika">-</button>
+                        <input type="text" id="quantity-maharlika" value="1">
+                        <button id="addBtn-maharlika">+</button>
                     </td>
-                    <td>P 1,200.00</td>
+                    <td id="total-maharlika">P 1,200.00</td>
                     <td>
-                        <a href="#">Delete</a>
-                        <select name="" id="">
+                        <!-- <button onclick="removeItem()" style="background-color: white;height:0px;width:0px;margin-right: 50px;border-color: white;">Remove</button> -->
+                        <h4 onclick="removeItem()" id="removeBtn">Remove</h4>
+                        <!-- <select name="" id="">
                             <option value="">Find similar</option>
-                        </select>
+                        </select> -->
                     </td>
                 </tr>
                 <tr>
