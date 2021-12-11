@@ -93,14 +93,16 @@
 						<table>
 							<tr class="tabletitle">
 								<td class="item"><h2>Item</h2></td>
+                                <td class="Hours"><h2>Weight</h2></td>
 								<td class="Hours"><h2>Qty</h2></td>
 								<td class="Rate"><h2>Sub Total</h2></td>
 							</tr>
 
 							<tr class="service">
 								<td class="tableitem"><p class="itemtext">Dinorado</p></td>
+                                <td class="tableitem"><p class="itemtext">25 kg</p></td>
 								<td class="tableitem"><p class="itemtext">2</p></td>
-								<td class="tableitem"><p class="itemtext">Php 2,100.00</p></td>
+								<td class="tableitem"><p class="itemtext">Php 1,798.00</p></td>
 							</tr>
 
 							<!-- <tr class="service">

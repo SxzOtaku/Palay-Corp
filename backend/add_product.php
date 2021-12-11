@@ -7,7 +7,6 @@
         $desc = $_POST['description'];
         $price = $_POST['price'];
         $category = $_POST['category'];
-        $image = $_POST['image']; // WALA PA
         $brand = $_POST['brand'];
         $country = $_POST['country_origin'];
         $weight = $_POST['weight'];
@@ -31,7 +30,8 @@
         );
 
         if($result){
-            echo "INSERT SUCCESS";
+            // echo "INSERT SUCCESS";
+            echo "<script>window.location.href = '../seller-centre.php';</script>";
         }
         else{
             echo "DI GUMANA FAK";

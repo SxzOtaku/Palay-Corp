@@ -20,8 +20,8 @@
                 <div class="nav-links">
                     <li><a href="main.php">Home</a></li>
                     <li><a href="items.php">Items</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">About Us</a></li>
+                    <li><a href="contact.php">Contact</a></li>
+                    <li><a href="about.php">About Us</a></li>
                 </div>
             </div>
             <div class="cart">

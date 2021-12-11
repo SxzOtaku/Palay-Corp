@@ -84,7 +84,7 @@
             <div class="cart">
                 <ion-icon name="cart"></ion-icon>
                 <div class="cart-details">
-                    <h5><a href="http://localhost:4000/palayCorp/cart.php">Shopping Cart</a></h5>
+                    <h5><a href="cart.php">Shopping Cart</a></h5>
                     <p> 0 Items - $0.00 </p>
                 </div>
             </div>
