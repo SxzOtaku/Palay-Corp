@@ -104,7 +104,7 @@
                     </form>
                 </div>
                 <div class="nav-links">
-                    <li><a href="http://localhost:4000/palayCorp/main.php">Home</a></li>
+                    <li><a href="main.php">Home</a></li>
                     <li><a href="#">Shop</a></li>
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Portfolio</a></li>

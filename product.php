@@ -32,7 +32,7 @@
             // AFTER 2 SEC HIDE POPUP
             setTimeout(function(){
                 popup.style.visibility = "hidden";
-                window.location.href = "cart.php";
+                window.location.href = "receipt.php";
             }, 2000);
         }
 

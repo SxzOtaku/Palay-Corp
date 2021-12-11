@@ -12,9 +12,10 @@
     <header>
         <div class="logo">
             <img src="images/agri-icon.png" alt="logo">
-            <h3>Palay <span>CORP</span></h3> 
+            <h3>Palay <span>CORP</span></h3>
+            <a href="main.php"><h4>Home</h4></a>
         </div>
-        <h4>Seller Center</h4>
+        <a href="#"><h4>Seller Center</h4></a>
     </header>
     <div class="sell-content">
         <div class="side-nav">
