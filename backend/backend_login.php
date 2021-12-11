@@ -43,6 +43,6 @@
         }
     }
     else{
-        echo "Missing Fields!";
+        echo "!";
     }
 ?>
