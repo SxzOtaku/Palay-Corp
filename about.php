@@ -52,17 +52,17 @@
             <div id="founding-members">
                 <h1>Founding Members</h1>
                 <div id="item">
-                    <div id="photo-alfrederick"></div>
-                    <div id="details">
-                        <h2>Alfrederick M. De Chavez</h2>
-                        <h3>Frontend</h3>
-                    </div>
-                </div>
-                <div id="item">
                     <div id="photo-ericka"></div>
                     <div id="details">
                         <h2>Ericka Jane C. Macatol</h2>
-                        <h3>Frontend/Documentation</h3>
+                        <h3>Leader / Frontend / Documentation</h3>
+                    </div>
+                </div>
+                <div id="item">
+                    <div id="photo-alfrederick"></div>
+                    <div id="details">
+                        <h2>Alfrederick M. De Chavez</h2>
+                        <h3>Frontend / Documentation</h3>
                     </div>
                 </div>
                 <div id="item">
@@ -83,7 +83,7 @@
                     <div id="photo-thom"></div>
                     <div id="details">
                         <h2>Thom Carlo L. Bello</h2>
-                        <h3>Frontend/Backend</h3>
+                        <h3>Frontend / Backend</h3>
                     </div>
                 </div>
                 <br>

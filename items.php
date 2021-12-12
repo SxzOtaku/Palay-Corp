@@ -63,19 +63,19 @@
                 <div id="type-content">
                     <div id="item">
                         <input type="checkbox" name="brand-1" id="">
-                        <label for="brand-1">Brand 1</label>
+                        <label for="brand-1">Goldmine</label>
                     </div>
                     <div id="item">
                         <input type="checkbox" name="brand-2" id="">
-                        <label for="brand-2">Brand 2</label>
+                        <label for="brand-2">Jordan Farms</label>
                     </div>
                     <div id="item">
                         <input type="checkbox" name="brand-3" id="">
-                        <label for="brand-3">Brand 3</label>
+                        <label for="brand-3">Farmboy &nbsp;</label>
                     </div>
                     <div id="item">
                         <input type="checkbox" name="brand-4" id="">
-                        <label for="brand-4">Brand 4</label>
+                        <label for="brand-4">Sacred Grains</label>
                     </div>
                 </div>
 

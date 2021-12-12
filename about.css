@@ -53,45 +53,54 @@
     width: 110px;
     height: 110px;
     margin-right: 20px;
-    background-image: url("images/dinorado.png");
-    background-size: 110px;
+    background-image: url("images/developer.png");
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;    
 }
 
 #item #photo-ericka{
     width: 110px;
     height: 110px;
     margin-right: 20px;
-    background-image: url("images/dinorado.png");
+    background-image: url("images/documentation.png");
     background-size: 110px;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;   
 }
 
 #item #photo-neil{
     width: 110px;
     height: 110px;
     margin-right: 20px;
-    background-image: url("images/dinorado.png");
+    background-image: url("images/developer.png");
     background-size: 110px;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;   
 }
 
 #item #photo-lemuel{
     width: 110px;
     height: 110px;
     margin-right: 20px;
-    background-image: url("images/dinorado.png");
+    background-image: url("images/documentation.png");
     background-size: 110px;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;   
 }
 
 #item #photo-thom{
     width: 110px;
     height: 110px;
     margin-right: 20px;
-    background-image: url("images/dinorado.png");
+    background-image: url("images/developer.png");
     background-size: 110px;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;   
 }
 
 #item #details{

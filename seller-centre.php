@@ -261,14 +261,17 @@
                         <label for="">Brand</label>
                         <select name="brand" id="">
                             <option value="">Please select</option>
-                            <option value="BRAND 1">BRAND 1</option>
+                            <option value="BRAND 1">Goldmine</option>
+                            <option value="BRAND 1">Jordan Farms</option>
+                            <option value="BRAND 1">Farmboy</option>
+                            <option value="BRAND 1">Sacred Grains</option>
                         </select>
                     </div>
                     <div class="left-row">
                         <label for="">Country Origin</label>
                         <select name="country_origin" id="">
                             <option value="">Please select</option>
-                            <option value="Country 1">Country 1</option>
+                            <option value="Country 1">Philippines</option>
                         </select>
                     </div>
                     <!-- <div class="left-row">
@@ -281,7 +284,7 @@
                         <label for="">Weight</label>
                         <select name="weight" id="">
                             <option value="">Please select</option>
-                            <option value="999 KG">999 KG</option>
+                            <option value="999 KG">25 KG</option>
                         </select>
                     </div>
                     <div class="left-row">
