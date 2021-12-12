@@ -38,7 +38,7 @@
 
         <!-----------------------------Dashboard-------------------------------->
 
-        <div class="main-content" data-content="1">
+        <div class="main-content active" data-content="1">
             <div class="content-title"><h4>Dashboard</h4></div>
             <div class="info-summary">
                 <div class="top-info">
@@ -200,7 +200,7 @@
 </div>
 <!------------------------------------Products------------------------->
 
-<div class="main-content active" data-content="4">
+<div class="main-content" data-content="4">
     <div class="content-title"><h4>Products</h4></div>
 
 
